@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.container {
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 700px;
+}
+
+h1 {
+  text-align: center;
+  color: #0077cc;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 25px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #0077cc;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #218838;
+}
+
+#statusMsg {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Password Vault</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> Cloud Password Vault</h1>
+
+    <button id="fetchBtn">Fetch Vault Data</button>
+
+    <table id="vaultTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Service</th>
+          <th>Username</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will load here -->
+      </tbody>
+    </table>
+
+    <h2>Add New Credential</h2>
+    <form id="addForm">
+      <input type="text" id="service" placeholder="Service (e.g., Gmail)" required />
+      <input type="text" id="username" placeholder="Username or Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Add Password</button>
+    </form>
+
+    <p id="statusMsg"></p>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
