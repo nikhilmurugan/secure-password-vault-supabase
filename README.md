@@ -41,9 +41,7 @@ Instead of storing plaintext passwords, passwords are encrypted using **HashiCor
 
 ## System Architecture
 
-Add architecture inside `docs/architecture`.
-
-* System Architecture
+![alt text](<System Architecture.png>)
 
 ## Security Highlights
 
